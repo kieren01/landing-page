@@ -20,3 +20,18 @@ ul {
     text-decoration: none;
     font-size: 20px;
   }
+
+  .introduction {
+    display: flex; 
+    margin: 50px 200px; 
+    flex: 1;
+  }
+
+  .hero-main {
+    font-size: 48px;
+    font-weight: 800; /*extra bold font weight */
+  }
+
+  .hero-secondary {
+    font-size: 18px;
+  }
