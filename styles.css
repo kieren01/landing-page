@@ -1,3 +1,7 @@
+body {
+  margin: 0px; 
+}
+
 .body {
   display: flex; 
   flex-direction: column;
@@ -8,6 +12,8 @@
   flex-direction: column;
   padding-left: 200px; 
   padding-right: 200px; 
+  background-color: #1F2937;
+
 }
 
 .header {
@@ -18,6 +24,9 @@
 
 .introduction {
   display: flex;
+  padding-top: 100px; 
+  padding-bottom: 100px;
+  color: white; 
 }
 
 ul {
@@ -30,27 +39,31 @@ ul {
   .left-links a {
     font-size: 24px;
     font-weight: bold; 
+    color: #F9FAF8;
   }
 
   a {
     text-decoration: none;
     font-size: 20px;
+    color: white; 
   }
 
 
   .hero-main {
     font-size: 48px;
     font-weight: 800; /*extra bold font weight */
+    color: #F9FAF8;
   }
 
   .hero-secondary {
     font-size: 18px;
-
-
+    color: #E5E7EB;
   }
 
   .intro-left {
+    min-height: 200px; 
     flex: 1;  
+    margin-right: 30px; 
   }
   
   .intro-right {
@@ -59,4 +72,15 @@ ul {
     flex: 1;
     justify-content: center;
     align-items: center;
+  }
+
+  button {
+    background-color: #3882F6;
+    color: white; 
+    font-weight: bold; 
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    padding: 8px 34px;
+    border-radius: 8px;
+    margin-top: 10px;
   }
