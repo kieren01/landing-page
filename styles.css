@@ -94,12 +94,11 @@ ul {
     font-weight: 800;
     color: #1F2937;
     justify-content: center;
-    margin-top: 30px; 
     margin-bottom: 30px;
   }
 
   .container-two {
-    text-align: center;
+    padding: 50px; 
   }
   
   .information {
@@ -137,6 +136,7 @@ ul {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    padding: 90px; 
   }
 
   .quote {
@@ -147,6 +147,8 @@ ul {
   }
 
   .quote-source {
+    font-weight: bold;
+    font-size: 25px;
     display: flex;
-    align-self: flex-end;
+    justify-content: flex-end;
   }
