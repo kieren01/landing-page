@@ -177,9 +177,23 @@ ul {
     font-size: 25px; 
   }
 
+  .action-text {
+    font-size: 18px;
+  }
+
   .action-button {
+    font-size: 16px;
     border: 2px solid white;
     border-width: 3px; 
   }
 
+  .footer {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    font-size: 25px; 
+    min-height: 120px; 
+    color: white; 
+  }
   
